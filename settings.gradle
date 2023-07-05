@@ -3,6 +3,7 @@ pluginManagement {
         google()
         mavenCentral()
         gradlePluginPortal()
+        maven { url 'https://jitpack.io' }
     }
 }
 dependencyResolutionManagement {
@@ -15,3 +16,6 @@ dependencyResolutionManagement {
 }
 rootProject.name = "VERN OBDII"
 include ':app'
+include ':androbd'
+include ':library'
+include ':plugin'
